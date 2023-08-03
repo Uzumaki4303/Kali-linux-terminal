@@ -23,7 +23,7 @@ body{
     width: 40px;
     height: 40px;
     margin-bottom: 5px;
-    padding-left: 5px;
+    /* padding-left: 5px; */
 }
 #wifi{
     margin-left: 78%;
@@ -63,7 +63,7 @@ body{
 }
 
 /* Terminal file code */
-.terminal{
+/* .terminal{
     margin-left: 500px;
     margin-top: 150px;
     width: 500px;
@@ -79,7 +79,7 @@ body{
     height: 369px;
     border-radius: 10px;
     background-color: black;
-    /* position: absolute; */
+    /* position: absolute; 
 }
 #min,#max,#close{
     width: 20px;
@@ -87,7 +87,7 @@ body{
     float: right;
     margin-right: 5px;
 }
-/* #name{
+#name{
     color: white;
 } */
 
