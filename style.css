@@ -1,0 +1,220 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    background-color: rgb(0, 0, 0);
+    border-bottom: 2px solid red;
+    height: 50px;
+    /* background: transparent; */
+}
+.application{
+    width: 50px;
+    border-right: 2px solid green;
+    
+}
+#notepad,#firefox,#chrome,#terminal{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+}
+#battery,#wifi{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+}
+#wifi{
+    margin-left: 78%;
+}
+
+.wallpaper{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.icons{
+    position: absolute;
+    top: 10%;
+    margin-left: 15px;
+}
+
+#trash{
+    width: 60px;
+    height: 50px;
+}
+#settings{
+    margin-left: 5px;
+    margin-top: -6px;
+    width: 60px;
+    height: 60px;
+}
+#home{
+    margin-left: 5px;
+    margin-top: -6px;
+    width: 60px;
+    height: 60px;
+}
+#root{
+    margin-top: -20px;
+    width: 80px;
+    height: 80px;
+}
+
+/* Terminal file code */
+.terminal{
+    margin-left: 500px;
+    margin-top: 150px;
+    width: 500px;
+    height: 400px;
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: rgb(50, 30, 104);
+    position: relative;
+}
+.nested-terminal{
+    margin: 10px;
+    margin-top: 20px;
+    height: 369px;
+    border-radius: 10px;
+    background-color: black;
+    /* position: absolute; */
+}
+#min,#max,#close{
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-right: 5px;
+}
+/* #name{
+    color: white;
+} */
+
+
+/* terminal code start here */
+
+/* body {
+    height: 100vh;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+    font-family: 'Inconsolata', monospace;
+    background-image: url(wallpaper.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.container {
+    width: 600px;
+    height: 500px;
+    /* max-width: 80%;
+    max-height: 85%; */
+    overflow-y: hidden;
+    border-radius: 10px;
+    opacity: 0.9;
+    color: white;
+    background-color: #222735;
+    margin-top: -300px;
+    margin-left: 300px;
+}
+.sticky-container {
+    margin-top: -20px;
+    position: sticky;
+    top: 0;
+    background-color: #222735;
+    /* border-bottom: 2px solid red; */
+
+}
+.navbanner {
+    height: 30px;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+    /* border-bottom: 2px solid green; */
+
+}
+.logo {
+    width: 30px;
+    height: 30px;
+    /* border: 2px solid white; */
+    /* background-color: white; */
+    border-radius: 4px;
+    /* border-bottom: 2px solid red; */
+}
+.title {
+    font-weight: bold;
+    letter-spacing: 1px;
+    /* border-bottom: 2px solid red; */
+
+}
+#username {
+    padding: 0 2px;
+    text-transform: lowercase;
+}
+.actionBtns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+.actionBtns svg {
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+}
+
+.toolbanner {
+    margin-top: -20px;
+    padding: 4px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+.toolbanner > ul {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 0 12px;
+}
+.toolbanner > ul > li {
+    list-style-type: none;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+.toolbanner > ul > li:hover {
+    color: rgb(37, 37, 248);
+}
+
+.terminal-text-wrap {
+    padding: 12px;
+    max-height: 90%;
+    overflow-y: auto;
+    overflow-wrap: break-word;
+}
+.command-output {
+    margin-bottom: 12px;
+}
+.command-input {
+    width: 100%;
+}
+.commandLine {
+    display: inline-block;
+    white-space: nowrap;
+    color: green;
+}
+.commandField {
+    width: 70%;
+    font-size: 20px;
+    letter-spacing: 0.8px;
+    color: lightgreen;
+    background-color: #222735;
+    outline: transparent;
+    border: transparent;
+}
+.outputText {
+    color: lightgreen;
+    line-height: 1.4rem;
+}
