@@ -26,13 +26,13 @@ const clearTerminal = () => {
 // connect cmd output 
 const openGitHubProfile = () => {
     // open my github profile 
-    window.open("https://github.com/Alkaison");
+    window.open("https://github.com/Uzumaki4303");
 }
 
 // open github repo for contribution 
 const contributionLink = () => {
     // open github repo 
-    window.open("https://github.com/Alkaison/Web-Projects/");
+    window.open("https://github.com/Uzumaki4303/Linux/");
 }
 
 // executes functions as per command match 
@@ -82,3 +82,7 @@ commandInput.addEventListener("keydown", (e) => {
             outputContainer.append(createElement);
     }
 });
+
+function showAlert(){
+    window.alert("No Features added!!!");
+}
