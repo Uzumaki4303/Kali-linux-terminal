@@ -7,7 +7,6 @@ body{
     background-color: rgb(0, 0, 0);
     border-bottom: 2px solid red;
     height: 50px;
-    /* background: transparent; */
 }
 .application{
     width: 50px;
@@ -23,7 +22,6 @@ body{
     width: 40px;
     height: 40px;
     margin-bottom: 5px;
-    /* padding-left: 5px; */
 }
 #wifi{
     margin-left: 78%;
@@ -63,54 +61,10 @@ body{
 }
 
 /* Terminal file code */
-/* .terminal{
-    margin-left: 500px;
-    margin-top: 150px;
-    width: 500px;
-    height: 400px;
-    border: 2px solid red;
-    border-radius: 10px;
-    background-color: rgb(50, 30, 104);
-    position: relative;
-}
-.nested-terminal{
-    margin: 10px;
-    margin-top: 20px;
-    height: 369px;
-    border-radius: 10px;
-    background-color: black;
-    /* position: absolute; 
-}
-#min,#max,#close{
-    width: 20px;
-    height: 20px;
-    float: right;
-    margin-right: 5px;
-}
-#name{
-    color: white;
-} */
-
-
-/* Ganesh terminal code start here */
-
-/* body {
-    height: 100vh;
-    overflow: hidden;
-    display: grid;
-    place-items: center;
-    font-family: 'Inconsolata', monospace;
-    background-image: url(wallpaper.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
 
 .container {
     width: 600px;
     height: 500px;
-    /* max-width: 80%;
-    max-height: 85%; */
     overflow-y: hidden;
     border-radius: 10px;
     opacity: 0.9;
@@ -124,8 +78,6 @@ body{
     position: sticky;
     top: 0;
     background-color: #222735;
-    /* border-bottom: 2px solid red; */
-
 }
 .navbanner {
     height: 30px;
@@ -134,22 +86,15 @@ body{
     justify-content: space-between;
     align-items: center;
     border-radius: 10px 10px 0 0;
-    /* border-bottom: 2px solid green; */
 
 }
 .logo {
     width: 30px;
     height: 30px;
-    /* border: 2px solid white;  */
-    /* background-color: white; */
-    /* border-radius: 4px; */
-    /* border-bottom: 2px solid red;*/
 }
 .title {
     font-weight: bold;
     letter-spacing: 1px;
-    /* border-bottom: 2px solid red; */
-
 }
 #username {
     padding: 0 2px;
