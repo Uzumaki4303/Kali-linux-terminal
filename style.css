@@ -135,7 +135,7 @@ body{
 
 .terminal-text-wrap {
     padding: 12px;
-    max-height: 90%;
+    max-height: 80%;
     overflow-y: auto;
     overflow-wrap: break-word;
 }
